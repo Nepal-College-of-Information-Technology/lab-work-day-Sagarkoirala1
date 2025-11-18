@@ -1,7 +1,7 @@
 # MMS Lab Works
-### Name : Your Name
-### Roll no. : 2314XX
-### Email : youremail@ncit.edu.np
+### Name : Sagar Koirala
+### Roll no. : 231530
+### Email : sagar.231530@ncit.edu.np
 
 ---
 | Lab#   | Title                                                                | Date       | Remarks |
