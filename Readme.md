@@ -7,3 +7,5 @@
 | Lab#   | Title                                                                | Date       | Remarks |
 |------  |--------------------------  |------------|---------|
 | 1      | Introduction to MMS lab                                               | 12/1/2025 |Familirization with github basic, discord        |
+| 2      | Basic sound processing and manipulation  using python                 | 12/2/2025 |        |
+ 
