@@ -8,4 +8,5 @@
 |------  |--------------------------  |------------|---------|
 | 1      | Introduction to MMS lab                                               | 12/1/2025 |Familirization with github basic, discord        |
 | 2      | Basic sound processing and manipulation  using python                 | 12/2/2025 |Familirazation with essential techniques and tools for handling and modifying sound data     |
+| 3      |  MIDI note processing and algorithmic music generation                | 12/9/2025 |      |
  
