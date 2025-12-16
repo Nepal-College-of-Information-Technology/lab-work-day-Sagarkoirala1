@@ -1,11 +1,14 @@
 ## Title:Basic sound processing and manipulation using python
+---
 ## Objectives:
 1. Load and play a sample sound clip(drum.wav)
 2. Process and manipulate and audio signal
 3. Perform audio using sign wave
 4. Visualize audio waveform and spectrum properties
+ ---
 ## Background Theory:
-* Sound and audio represention
+
+### 1. Sound and audio represention
   
   Sound is an analog wave created by vibrations, and audio representation converts this continuous signal into a digital format for computer processing. Digital audio stores sound as numerical samples over time, enabling playback, editing, and analysis.
 
@@ -22,7 +25,7 @@
    Example: A microphone recording your voice becomes a list of sample values like [0.2, 0.4, 0.1, …].
 
   
-* Sampling and Quantization
+### 2.Sampling and Quantization
   
   Sampling captures sound at regular time intervals, while quantization assigns each sample a discrete numeric value. Together, they convert analog audio into digital form.
 
@@ -38,7 +41,7 @@
 
    Example: Telephone audio uses 8 kHz sampling, while studio audio uses 48 kHz for higher detail.
 
-* PyDub
+### 3. PyDub
   
   PyDub is a Python library used for simple and efficient audio editing and manipulation.
 
@@ -57,7 +60,7 @@
 
    Example: Trim a 10-second audio clip to 5 seconds using audio[:5000].
 
-* Librose
+### 4. Librose
   
   Librosa is an advanced Python library used for audio analysis, especially in music and machine-learning applications.
 
@@ -72,6 +75,8 @@
   iv) Used in speech recognition, music classification, and feature extraction.
   
    Example: Using Librosa to create a spectrogram to analyze the frequency content of a song.
+   
+   ---
   
 
 ## Procedure
@@ -93,7 +98,13 @@ vii. A simple audio signal, such as a sine wave, had been synthesized using NumP
 viii. The synthesized signal had been visualized in both waveform and spectrogram form.
 
 ix. Finally, the processed audio had been saved or exported using Pydub or Librosa.
+
+---
+
 ## Output
 The audio file drum.wav was successfully loaded and played using Pydub or Librosa. The waveform clearly displayed the time-domain representation, and the spectrogram showed the frequency distribution over time. A synthetic sine wave was created using NumPy, with both its waveform and spectrogram visualized successfully. The processed audio, including trimming, volume adjustment, and resampling, was exported correctly.
+
+---
+
 ## Conclusion
 In this lab, audio was successfully loaded, analyzed, and processed using Pydub, Librosa, NumPy, and Matplotlib. Waveforms and spectrograms demonstrated time and frequency characteristics, while a synthetic sine wave was generated and visualized. The experiment highlighted key audio manipulations like trimming, volume adjustment, and resampling, reinforcing practical skills in digital audio processing.
