@@ -54,27 +54,27 @@ Used for playing MIDI files and handling basic audio playback.
 
 ## *Procedure*
 
-i. The required Python libraries (mido, math, and pygame) had been imported to support MIDI processing, frequency calculation, and audio playback.
+1. The required Python libraries (mido, math, and pygame) had been imported to support MIDI processing, frequency calculation, and audio playback.
 
-ii. The input MIDI file had been loaded using the mido.MidiFile() function.
+2. The input MIDI file had been loaded using the mido.MidiFile() function.
 
-iii. The MIDI file had been iterated message by message to identify all note_on events.
+3. The MIDI file had been iterated message by message to identify all note_on events.
 
-iv. The MIDI note numbers and channel values had been extracted and printed for analysis.
+4. The MIDI note numbers and channel values had been extracted and printed for analysis.
 
-v. A function had been defined to convert MIDI note numbers into corresponding frequencies using the standard formula.
+5. A function had been defined to convert MIDI note numbers into corresponding frequencies using the standard formula.
 
-vi. A beat pattern had been generated to provide rhythmic structure.
+6. A beat pattern had been generated to provide rhythmic structure.
 
-vii. A harmony track had been generated using simple triads based on the root notes.
+7. A harmony track had been generated using simple triads based on the root notes.
 
-viii. A melody sequence had been generated from the extracted MIDI notes.
+8. A melody sequence had been generated from the extracted MIDI notes.
 
-ix. The generated beat, harmony, and melody sequences had been saved as separate MIDI files named beat.mid, harmony.mid, and melody.mid.
+9. The generated beat, harmony, and melody sequences had been saved as separate MIDI files named beat.mid, harmony.mid, and melody.mid.
 
-x. The melody MIDI file had been loaded into the pygame mixer and had been played.
+10. The melody MIDI file had been loaded into the pygame mixer and had been played.
 
-xi. The generated MIDI files had been converted into WAV format, provided that a compatible synthesizer or MIDI backend had been available.
+11. The generated MIDI files had been converted into WAV format, provided that a compatible synthesizer or MIDI backend had been available.
 
 ---
 
@@ -98,4 +98,4 @@ xi. The generated MIDI files had been converted into WAV format, provided that a
 
 ## *Conclusion*
 
-This lab explored MIDI processing using Python. MIDI note information was extracted and converted into corresponding frequencies. Musical patterns such as beats, harmony, and melody were generated programmatically. The generated MIDI files were played and converted into standard audio formats. This experiment enhanced understanding of the MIDI protocol, basic music theory concepts, and Python-based algorithmic music generation.
+  This lab explored MIDI processing using Python. MIDI note information was extracted and converted into corresponding frequencies. Musical patterns such as beats, harmony, and melody were generated programmatically. The generated MIDI files were played and converted into standard audio formats. This experiment enhanced understanding of the MIDI protocol, basic music theory concepts, and Python-based algorithmic music generation.
