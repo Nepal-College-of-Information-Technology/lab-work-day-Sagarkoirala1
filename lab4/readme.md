@@ -96,16 +96,29 @@ we had defined a specific region of interest, had cropped that area from the ori
 --- 
 ## Output
 * Original image displayed successfully
+
 ![alt text](image.png)
+
+
 * Grayscale and binary images obtained
+
+
 ![alt text](image-1.png)
+
+
 ![alt text](image-2.png)
 
+
 * Image resized, rotated, and flipped correctly
+
 ![alt text](image-3.png)
+
+
 ![alt text](image-4.png)
 
+
 * Region of interest cropped from the image
+
 ![alt text](image-5.png)
 ---
 

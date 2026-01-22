@@ -43,9 +43,15 @@ vi. The result had been displayed.
 ---
 # Result
 The system successfully detected the face from the input image and correctly classified the gender, age group, and emotion using the pre-trained CNN model.
+
 ![alt text](image.png)
+
 ![alt text](image-1.png)
+
+
 ![alt text](image-2.png)
+
+
 
 
 
