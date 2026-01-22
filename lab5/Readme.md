@@ -25,3 +25,26 @@
 
  ###  Convolution Neural Network
  Convolutional Neural Networks (CNNs) are a type of deep learning model specifically designed for image-related tasks. A CNN consists of multiple layers, including convolutional layers that extract features, pooling layers that reduce dimensionality, and fully connected layers that perform classification. By learning from large datasets, CNNs can identify intricate patterns in images, making them ideal for applications such as gender classification, face recognition, and object detection.
+
+ ---
+# Procedure
+i. The pre-trained CNN model had been loaded.
+
+ii. The input image had been read using OpenCV.
+
+iii. The face region had been detected from the image.
+
+iv. The detected face had been resized and preprocessed.
+
+v. The image had been classified using the CNN model.
+
+vi. The result had been displayed.
+
+---
+# Result
+The system successfully detected the face from the input image and correctly classified the gender, age group, and emotion using the pre-trained CNN model.
+
+---
+# Conclusion
+This lab successfully demonstrated the use of OpenCV and a pre-trained CNN model for face-based gender, age, and emotion classification. The results showed that deep learning techniques provide better accuracy and reliability compared to traditional methods for image classification tasks.
+
